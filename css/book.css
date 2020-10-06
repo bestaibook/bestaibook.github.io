@@ -1,0 +1,203 @@
+/* 加入思源體字體 */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans TC';
+    margin:0;
+    box-sizing: border-box;
+    /* border:1px solid #000000; */
+}
+
+/* 前後分別加入偽類元素 */
+.clearfix:before,
+.clearfix:after {
+  content: ""; /* 空的內容 */
+  display: table; /* 這邊就不太曉得 */
+}
+
+/* 在後面的偽類元素進行clear */
+.clearfix:after {
+  clear: both;
+}
+/*For IE 6&7 only*/
+/* 用來使用在IE上 */
+.clearfix {
+  *zoom: 1;
+}
+
+html,body {
+    background-color: #E1D7C6;
+    margin:0;
+    padding:0;
+    font-size: 1.1em;
+    line-height: 1.65em;
+    color: rgba(51,51,51,0.75);
+}
+header {
+    padding-top: 50px;
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    display: flex;
+    margin:0 auto;
+    width:900px;
+}
+header img{
+    width:300px;
+}
+#h_title {
+    padding-top:70px;
+    color:rgba(255,255,255,0.8);
+}
+#h_title h1{
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: 500;
+}
+#h_title h2{
+    margin-top: 35px;
+    font-weight: 400;
+}
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+    /* height: 2000px; */
+}
+.block {
+    margin-top: 30px;
+}
+.title {
+    margin-bottom: 16px;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #8F6F3E;
+}
+.summary {
+    padding: 20px;
+}
+
+.authors {
+    display: flex;
+    padding: 20px;
+}
+.authors .photo {
+    margin-left: 2%;
+
+}
+.photo img {
+    width: 120px ;
+    border-radius: 50%;
+}
+.authors .name {
+    margin-left:3% ;
+    margin-right:1% ;
+    padding-top: 25px;
+    flex-shrink: 0;
+    width:15%;
+    color:rgba(51,51,51,0.87);
+}
+.authors .c_name{
+    font-size: 1.55em;
+    font-weight: 500;
+}
+
+.authors .e_name{
+    margin-top: 6px;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+.authors .dis {
+    padding-top: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin:0 auto;
+    width:60%;
+}
+.link img{
+    display: block;
+    margin:0 auto;
+}
+.link .title{
+    text-align: center;
+    font-size: 1.2em;
+}
+.link img {
+    width:60px;
+}
+
+footer {
+    margin-top: 40px;
+    width:100%;
+    height: 80px;
+    background-color: #C8B08A;
+    color:rgba(51,51,51,0.9);
+}
+#footer {
+    line-height: 80px;
+    text-align: center;
+}
+@media only screen and  (max-width: 1040px){
+html,body{
+    font-size: 1em;
+}
+header {
+    padding-top: 35px;
+    height: 200px;
+}
+header img {
+    width:150px;
+}
+.header {
+    position: relative;
+    width:100%;
+}
+#h_title {
+    position: absolute;
+    top:15px;
+    left:44%;
+    padding-top: 0px;
+    width:100%;
+}
+#h_title h1{
+    font-size: 2.2em;
+}
+#h_title h2{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+#content{
+     width:95%;
+ }
+ .authors {
+     flex-wrap: wrap;
+     padding:10px;
+ }
+ 
+ .authors .name {
+    padding-top: 34px;
+    margin-left: 30px;
+    width:40%;
+ }
+ .dis {
+     width:96%;
+     padding-left: 4%;
+ }
+ .links {
+     width:85%
+ }
+ .link .title{
+    font-size: 1em;
+ }
+ .link img {
+     width: 50px;
+     text-align: center;
+ }
+}

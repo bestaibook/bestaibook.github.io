@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn_mail</title>
+    <g id="wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1210.000000, -1815.000000)">
+            <g id="btn_mail" transform="translate(1210.000000, 1815.000000)">
+                <rect id="Rectangle-Copy-3" fill="#9F4C4C" x="0" y="0" width="100" height="100" rx="8"></rect>
+                <g id="email-24px" opacity="0.900000036" transform="translate(7.000000, 11.000000)">
+                    <polygon id="Path" points="0 0 86.3999977 0 86.3999977 86.3999977 0 86.3999977"></polygon>
+                    <path d="M71.9999981,14.3999996 L14.3999996,14.3999996 C10.4399997,14.3999996 7.23599981,17.6399995 7.23599981,21.5999994 L7.19999981,64.7999983 C7.19999981,68.7599982 10.4399997,71.9999981 14.3999996,71.9999981 L71.9999981,71.9999981 C75.959998,71.9999981 79.1999998,68.7599982 79.1999998,64.7999983 L79.1999998,21.5999994 C79.1999998,17.6399995 75.959998,14.3999996 71.9999981,14.3999996 Z M71.9999981,29.7999992 L43.1999989,50.7999988 L14.3999996,29.7999992 L14.3999996,21.5999994 L43.1999989,42.5999994 L71.9999981,21.5999994 L71.9999981,29.7999992 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
