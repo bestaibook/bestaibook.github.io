@@ -4,7 +4,6 @@
     font-family: 'Noto Sans TC';
     margin:0;
     box-sizing: border-box;
-    /* border:1px solid #000000; */
 }
 
 /* 前後分別加入偽類元素 */
@@ -144,6 +143,7 @@ footer {
     line-height: 80px;
     text-align: center;
 }
+
 @media only screen and  (max-width: 1040px){
 html,body{
     font-size: 1em;
@@ -158,12 +158,14 @@ header img {
 .header {
     position: relative;
     width:100%;
+    padding-left: 5%;
 }
 #h_title {
-    position: absolute;
-    top:15px;
-    left:44%;
+    /* position: absolute; */
+    /* top:15px; */
+    /* left:44%; */
     padding-top: 0px;
+    /* padding-left: 40%; */
     width:100%;
 }
 #h_title h1{
